@@ -1,0 +1,28 @@
+.item img {
+	width: 40px;
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.item {
+	font-size: 20px;
+}
+
+.item .name > a {
+	text-decoration: none;
+	color: black;
+}
+
+.item .name > a:hover {
+	font-weight: bold;
+}
+
+.activeLink {
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.item .name {
+	padding-left: 20px;
+}

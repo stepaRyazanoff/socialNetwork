@@ -1,0 +1,54 @@
+ .wrapperContent img {
+	width: 80px;
+	border-radius: 10%;
+}
+
+.wrapperContent {
+	padding: 10px;
+	margin: 10px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border: 1px solid black;
+
+	display: grid;
+	grid-template-columns: 100px 200px 550px;
+	grid-template-rows: 1fr 30px 30px;
+}
+
+.item_1 {
+	margin: 0 auto;
+	grid-column: 1/2;
+}
+
+.item_2 {
+	text-align: center;
+	grid-column: 1/2;
+}
+
+.item_2 button {
+	border-radius: 3px;
+}
+
+.item_3 {
+	font-weight: bold;
+	text-align: center;
+	grid-row: 2/4;
+}
+
+.item_4 {
+	text-align: end;
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.item_5 {
+	text-align: end;
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.item_6 {
+	text-align: end;
+	grid-column: 3/4;
+	grid-row: 3/4;
+}

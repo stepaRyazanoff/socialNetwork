@@ -1,0 +1,40 @@
+.loginForm .login,
+.password,
+.btnLogin {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.checkbox {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.btnLogin button {
+	width: 100px;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+.password input,
+.login input {
+	padding: 5px;
+	font-size: 15px;
+}
+
+.loginForm .btnLogin {
+	margin-bottom: 20px;
+}
+
+.loginForm.summaryError input {
+	border: 2px solid red;
+	border-radius: 3px;
+}
+
+.loginForm.summaryError span {
+	color: red;
+}
+
+.errorSpan {
+	margin-top: 20px;
+}

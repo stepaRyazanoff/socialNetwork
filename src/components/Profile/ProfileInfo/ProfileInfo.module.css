@@ -1,0 +1,8 @@
+.photo img {
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.contact{
+	padding-left: 10px;
+}

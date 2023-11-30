@@ -1,0 +1,21 @@
+.navbar {
+	font-family: 'Nunito';
+	background: #c1d9f7;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.navbar nav > div > a {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar nav > div > a:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.activeLink {
+	font-size: 26px;
+	font-weight: bold;
+}

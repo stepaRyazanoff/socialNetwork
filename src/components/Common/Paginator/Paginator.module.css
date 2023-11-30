@@ -1,0 +1,41 @@
+.paginator {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.paginator .button {
+	background: #c1d9f7;
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	margin: 6px;
+}
+
+.paginator .button:hover {
+	font-weight: bold;
+	border: 3px solid black;
+}
+
+.pageNumber {
+	padding: 3px;
+	border-radius: 3px;
+	margin: 2px;
+	border: 1px solid black;
+	cursor: pointer;
+	background: #c1d9f7;
+}
+
+.pageNumber.selectedPage {
+	font-weight: bold;
+	font-size: 23px;
+	border-color: black;
+	border: 3px solid black;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.pageNumber:hover {
+	background: rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.headerLogin h1 {
+	font-size: 25px;
+}
+
+.loginContent {
+	padding: 10px;
+	background: #c1d9f7;
+	margin: 0 auto;
+	border-radius: 3px;
+	width: 260px;
+	min-height: 350px;
+	box-sizing: border-box;
+}
+
+.loginContent h1 {
+	text-align: center;
+}

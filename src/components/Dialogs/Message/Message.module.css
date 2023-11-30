@@ -1,0 +1,8 @@
+.message {
+	border: 1px solid gray;
+	height: 90px;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 25px;
+	box-sizing: border-box;
+}
